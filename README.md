@@ -1,0 +1,2 @@
+# EmitterInterface
+PHP Emitter Interface

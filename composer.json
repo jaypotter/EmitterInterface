@@ -1,0 +1,27 @@
+{
+    "name": "potter/emitter-interface",
+    "description": "PHP Emitter Interface",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "suggest": {
+        "potter/event-interfaces": "dev-main",
+        "potter/event": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Event\\Emitter\\": "src/Potter/Event/Emitter/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
